@@ -110,7 +110,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       "recipe[database]",
       "recipe[drush]",
       "recipe[git]",
-      "recipe[hostsfile]",
       "recipe[htpasswd]",
       "recipe[jr-php]",
       "recipe[yum-ius]"
