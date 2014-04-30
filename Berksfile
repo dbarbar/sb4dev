@@ -12,6 +12,8 @@ cookbook "git"
 
 cookbook "htpasswd"
 cookbook "jr-php", github: "JacksonRiver/chef-jr-php"
+cookbook "mysql"
+cookbook "php"
 cookbook "yum-ius"
 
 # Causes trouble because of php requirement.

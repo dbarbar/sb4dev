@@ -111,7 +111,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       "recipe[drush]",
       "recipe[git]",
       "recipe[htpasswd]",
-      "recipe[jr-php]",
+#      "recipe[jr-php]",
+      "recipe[mysql::server]",
+      "recipe[mysql::client]",
+      "recipe[php]",
       "recipe[yum-ius]"
     ]
     chef.json = {
